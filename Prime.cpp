@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void Prime(int n) {
+int Prime(int n) {
     int s = 0;
 
     for (int i = 2; i < n/2; i++) {
